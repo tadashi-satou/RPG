@@ -1,15 +1,12 @@
 package extend.practice;
 
 public class Wizard extends Human {
-	String msg = "";
-	String name = "魔法使い";
-	int hp = 100;
-	int offensive = 30;
+	protected String msg = "";
 	
 	public Wizard() {
-		super.name = this.name;
-		super.hp = this.hp;
-		super.offensive = this.offensive;
+		super.name = "魔法使い";
+		super.hp = 30;
+		super.offensive = 30;
 	}
 
 	@Override

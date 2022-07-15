@@ -1,15 +1,12 @@
 package extend.practice;
 
 public class Oak extends Monster {
-	String msg = "";
-	String name = "オーク";
-	int hp = 80;
-	int offensive = 10;
+	protected String msg = "";
 	
 	public Oak() {
-		super.name = this.name;
-		super.hp = this.hp;
-		super.offensive = this.offensive;
+		super.name = "オーク";
+		super.hp = 80;
+		super.offensive = 10;
 	}
 
 	@Override

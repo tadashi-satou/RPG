@@ -1,15 +1,12 @@
 package extend.practice;
 
 public class Dragon extends Monster {
-	String msg = "";
-	String name = "ドラゴン";
-	int hp = 100;
-	int offensive = 10;
+	protected String msg = "";
 	
 	public Dragon() {
-		super.name = this.name;
-		super.hp = this.hp;
-		super.offensive = this.offensive;
+		super.name = "ドラゴン";
+		super.hp = 100;
+		super.offensive = 20;
 	}
 
 	@Override

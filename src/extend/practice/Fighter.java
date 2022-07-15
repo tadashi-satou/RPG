@@ -1,15 +1,12 @@
 package extend.practice;
 
 public class Fighter extends Human {
-	String msg = "";
-	String name = "戦士";
-	int hp = 80;
-	int offensive = 10;
+	protected String msg = "";
 	
 	public Fighter() {
-		super.name = this.name;
-		super.hp = this.hp;
-		super.offensive = this.offensive;
+		super.name = "戦士";
+		super.hp = 80;
+		super.offensive = 15;
 	}
 
 	@Override

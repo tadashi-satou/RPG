@@ -1,15 +1,12 @@
 package extend.practice;
 
 public class Slime extends Monster {
-	String msg = "";
-	String name = "スライム";
-	int hp = 10;
-	int offensive = 10;
+	protected String msg = "";
 	
 	public Slime() {
-		super.name = this.name;
-		super.hp = this.hp;
-		super.offensive = this.offensive;
+		super.name = "スライム";
+		super.hp = 10;
+		super.offensive = 10;
 	}
 
 	@Override

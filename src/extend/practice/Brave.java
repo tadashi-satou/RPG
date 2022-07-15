@@ -1,15 +1,12 @@
 package extend.practice;
 
 public class Brave extends Human {
-	String msg = "";
-	String name = "勇者";
-	int hp = 100;
-	int offensive = 3;
+	protected String msg = "";
 
 	public Brave() {
-		super.name = this.name;
-		super.hp = this.hp;
-		super.offensive = this.offensive;
+		super.name = "勇者";
+		super.hp = 100;
+		super.offensive = 20;
 	}
 
 	@Override
